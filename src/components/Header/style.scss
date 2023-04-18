@@ -13,9 +13,29 @@
 }
 
 img {
-    width: 343px;
-    height: 332px;
+    width: 19rem;
+    height: 18rem;
     position: relative;   
     top: 8rem; 
     left: 10rem;
 }
+
+.titleCard{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    margin: 4rem;
+    position: relative;
+    left: 17rem;
+}
+.titleCard > h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 61px;
+    color: #EBFF00;
+    position: relative;
+    left: 5rem;  
+}
+

@@ -5,9 +5,9 @@ const Menu = () => {
     return(
         <nav className="Menu">
             <ul className="menuUl">
-                <button href="/" className="Link">Sobre</button>
-                <button href="/" >Curriculo</button>
-                <button href="/" >Projetos</button>
+                <button  className="homeBt">Sobre</button>
+                <button  className="homeBt">Curriculo</button>
+                <button  className="homeBt">Projetos</button>
             </ul>
         </nav>
     );
