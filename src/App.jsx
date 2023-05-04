@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import Main from "./components/main";
+import Home from "./components/home";
 import "./App.scss";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     
     <div className="App">
     {/* <Header /> */}
-    <Main />
+    <Home />
     </div>
    
   );

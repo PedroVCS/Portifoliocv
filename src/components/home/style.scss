@@ -1,0 +1,75 @@
+.main1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+   
+}
+  
+.boxInf{
+    display: flex;
+    flex-direction: row;
+    padding: 9rem;
+    gap: 12rem;
+ }
+.inf{
+   
+   
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 20rem;
+    background-color: #373737;
+    padding: 1rem;
+    align-items: center;   
+}
+.infomacaoPessoal{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+// .box{
+//     color: aliceblue;
+//     font-size: 2rem; 
+//     width: 60rem;
+//     height: 9rem;
+//     background-color: #373737; 
+// }
+.box > img{
+    width:70rem;
+    height: 12rem;
+    position: relative;
+    margin: 0;
+}
+.box1{
+    color: black;
+    font-size: 2rem; 
+    width: 70rem;
+    height: 16.5rem;
+    background-color: white;
+    margin: 0;
+    
+}
+.box1 > h1{
+    background-color: #373737;
+    color: white;
+  
+}
+
+.btMais{
+width: 172px;
+height: 39px;
+color: aliceblue;
+background: #373737;
+box-shadow: 9px 6px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px 30px 0px 0px;
+font-family: 'Inter';
+font-size: 26px;
+text-align: center;
+}
+.btMais:hover{
+ background-color: black;
+ color: white;
+}

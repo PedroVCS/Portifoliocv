@@ -1,9 +1,10 @@
-
+import tecnologias from '../../assets/img/imgCaixaInf/Group 1.png'
 import React from "react";
 import "./style.scss";
 import Header from '../Header';
+import BoxTec from '../boxTecnologia';
 
-const Main = () => {
+const Home = () => {
     return(
     <div className="main1"> 
         <Header />
@@ -14,13 +15,16 @@ const Main = () => {
         </article>
         <aside className='infomacaoPessoal'>
             <div className="box">
-            
+           
+            <img src={tecnologias} alt="" />
             </div>
 
             <div className="box1">
             <h1>Sobre</h1>
             <p>ola meu nome e pedro</p>
+            <button  className="btMais">Ver mais</button>
             </div>
+            
 
         </aside> 
     </div>   
@@ -28,4 +32,4 @@ const Main = () => {
     );
 }
 
-export default Main;    
+export default Home;    
