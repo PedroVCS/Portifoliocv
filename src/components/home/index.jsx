@@ -2,8 +2,7 @@ import tecnologias from '../../assets/img/imgCaixaInf/Group 1.png'
 import React from "react";
 import "./style.scss";
 import Header from '../Header';
-import BoxTec from '../boxTecnologia';
-
+import SocialNetworking from '../SocialNetworking';
 const Home = () => {
     return(
     <div className="main1"> 
@@ -12,6 +11,7 @@ const Home = () => {
         <article className="inf">
             <h1>São Paulo</h1>
             <p>04/02/1996</p> 
+            <SocialNetworking />    
         </article>
         <aside className='infomacaoPessoal'>
             <div className="box">
